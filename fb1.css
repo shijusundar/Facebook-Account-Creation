@@ -1,0 +1,123 @@
+.header {
+    background-color: #3b5998;
+    width: 100%;
+    height: 90px;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo {
+    width: 50%;
+    padding-top: 32px;
+    float: left;
+}
+.login {
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.logo-text {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 170px;  
+}
+.login-label {
+    color: #fff;
+    font-size: 13px;
+}
+.login-credentials {
+    margin-left: 115px;
+}
+.forgotten {
+    text-decoration: none;
+    color: #9cb4d8;
+    font-size: 13px;
+}
+.button {
+    background: #4267b2;
+    color: #fff;
+    height: 21px;
+    border-color: #29487d;
+    cursor: pointer;
+}
+.button:hover{
+    background: red;
+}
+.left-section {
+    width: 50%;
+    float: left;
+    padding-left: 125px;
+    padding-top: 55px;
+}
+
+.right-section {
+    width: 40%;
+    float: left;
+}
+.main-body {
+    background: linear-gradient(white,#d3d8e8);
+    width: 100%;
+    height: 500px;
+}
+.image {
+    width: 580px;
+}
+.fb-text {
+    font-weight: bold;
+    font-size: 21px;
+}
+.main-text {
+    position: absolute;
+    top: 104px;
+    right: 330px;
+    text-align: right;
+
+}
+.sub-text {
+    position: absolute;
+    top: 150px;
+    right: 464px;
+    text-align: right;
+    font-size: medium;
+}
+
+.account-container {
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 116px;
+    right: 110px;
+}
+
+
+.name-row {
+    display: flex;
+    gap: 10px; 
+    margin-bottom: 10px; 
+}
+
+    
+.account-det.half-width {
+    width: 48%; 
+    height: 10px;
+    padding: 7px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.account-det.full-width {
+    width: 100%; 
+    height: 10px;
+    padding: 7px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
